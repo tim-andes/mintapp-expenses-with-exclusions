@@ -34,4 +34,5 @@ print(f"Average Monthly Expenses: $ {mo_avg_expenses:.2f}")
 
 # for import to other modules
 def mo_mint_exp(mo_avg_expenses):
+	"""For purposes of importing average monthly expenses to other modules."""
 	return mo_avg_expenses
