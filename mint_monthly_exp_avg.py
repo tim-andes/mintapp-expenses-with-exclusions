@@ -16,8 +16,8 @@ lean_df = lean_df.set_index('Date')
 
 # filter debits
 categories_exclusion = ['Buy', 'Investments', 'Transfer',
-						'Credit Card Payment',
-						'Hide from Budgets & Trends']
+			'Credit Card Payment',
+			'Hide from Budgets & Trends']
 debit_filter = (
 		(lean_df['Transaction Type'] == 'debit') &
 		(~lean_df['Category'].isin(categories_exclusion))
