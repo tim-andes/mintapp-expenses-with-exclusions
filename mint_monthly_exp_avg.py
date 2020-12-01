@@ -1,5 +1,6 @@
 import pandas as pd
 
+# TODO add pytest unit test to test_unit.py
 # get csv file
 filename = "data/transactions.csv"
 df = pd.read_csv(filename)
