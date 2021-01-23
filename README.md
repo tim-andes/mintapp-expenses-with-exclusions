@@ -4,4 +4,4 @@ Uses pandas and takes the Mint app's Transactions (all) CSV and extrapolates the
 TO DO:
 - [ ] unit tests
 - [ ] reformat
-- [ ] increase flexibility / add ability to remove categories
+- [ ] increase flexibility: more modular, add ability to remove categories
